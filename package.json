@@ -1,5 +1,22 @@
 {
   "devDependencies": {
     "prettier": "^2.5.1"
-  }
+  },
+  "name": "demo-js-module",
+  "version": "1.0.0",
+  "main": "clean.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elmi-elmi/demo-js-17-modules.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elmi-elmi/demo-js-17-modules/issues"
+  },
+  "homepage": "https://github.com/elmi-elmi/demo-js-17-modules#readme",
+  "description": ""
 }
