@@ -1,5 +1,15 @@
-import { addToCart } from "./shopingCart.js";
-console.log("script");
+const res = await fetch('https://jsonplaceholder.typicode.com/users');
+// const res =  await Promise.resolve('hi there');
+//
+console.log('hi')
+console.log('----',res)
+
+// let {add} = await import('./shopingCart');
+
+// console.log(add(2, 3));
+
+// import { addToCart } from "./shopingCart.js";
+// console.log("script");
 // addToCart('bread',2)
 //
 // console.log('before await')
@@ -46,5 +56,28 @@ console.log("script");
 // })();
 //
 // shoppingCart2.addToCart('hi', 11111);
+
+// if(module.hot){
+//     moduel.hot.accept();
+// }
+
+//
+// {
+//     "name": "modules",
+//     "version": "1.0.0",
+//     "scripts": {
+//     "start": "parcel index.html",
+//         "build": "parcel build index.html"
+// },
+//     "type": "module",
+//     "repository": "https://github.com/elmi-elmi/demo-js-17-modules.git",
+//     "author": "shahrokh",
+//     "license": "MIT",
+//     "devDependencies": {
+//     "parcel": "^2.2.1",
+//         "prettier": "^2.5.1"
+// },
+//     "dependencies": {}
+// }
 
 
