@@ -13,5 +13,8 @@
     "parcel": "^2.2.1",
     "prettier": "^2.5.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "core-js": "^3.20.3",
+    "regenerator-runtime": "^0.13.9"
+  }
 }

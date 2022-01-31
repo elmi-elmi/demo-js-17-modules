@@ -1,8 +1,11 @@
-const res = await fetch('https://jsonplaceholder.typicode.com/users');
-// const res =  await Promise.resolve('hi there');
+// const res = await fetch('https://jsonplaceholder.typicode.com/users');
+const res =  await Promise.resolve('hi there');
 //
 console.log('hi')
 console.log('----',res)
+
+import 'core-js/stable'
+import 'regenerator-runtime/runtime.js'
 
 // let {add} = await import('./shopingCart');
 
